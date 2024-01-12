@@ -1,7 +1,7 @@
 {
   "name": "module-12-challenge-employee-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "This Employee Tracker Command Line App, made by ylf456, is a user-friendly tool designed for managing employee information within an organization.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "inquirer": "^9.2.12"
-  }
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.7.0"
+  },
+  "directories": {}
 }
