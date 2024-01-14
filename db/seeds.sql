@@ -11,10 +11,10 @@ VALUE  (1, "manager", 1000, 1),
        (4, "packaging", 700, 4); 
     
 INSERT INTO employees (id, first_name, last_name, role_id, manager_id)
-VALUE (1, "Cyprian", "Pankratiy", 1, 1),
+VALUE (1, "Cyprian", "Pankratiy", 1, null),
       (2, "Ridwan", "Cloe", 2, 1),
       (3, "Surendra", "Laurelle", 3, 1),
-      (4, "Khánh", "Margit", 4, 1);
+      (4, "Khanh", "Margit", 4, 1);
 
 SELECT * from department;
 SELECT * from ROLE;
