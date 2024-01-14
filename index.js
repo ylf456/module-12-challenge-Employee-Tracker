@@ -3,7 +3,7 @@ const inquirer = require("inquirer"); // inquirer@^8.2.4
 const mysql = require("mysql2");
 const menuChoice = require("./lib/menuChoice");
 
-prompting = () => {
+function prompting() {
   inquirer
     .prompt([
       {
@@ -30,7 +30,7 @@ prompting = () => {
     //.then((result)=> {init()});
 };
 
-init = () => {
+function init(){
   prompting();
 };
 
