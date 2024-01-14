@@ -26,8 +26,6 @@ SELECT employees.id, employees.first_name, employees.last_name, role.title, depa
 FROM employees
 JOIN role ON employees.role_id = role.id 
 JOIN department ON role.department_id = department.id;
-*/
-/*
 +----+------------+-----------+-----------+-----------------+--------+------------+
 | id | first_name | last_name | title     | department_name | salary | manager_id |
 +----+------------+-----------+-----------+-----------------+--------+------------+
@@ -38,7 +36,24 @@ JOIN department ON role.department_id = department.id;
 +----+------------+-----------+-----------+-----------------+--------+------------+
 */
 
+menu: view all employees
+┌─────────┬────┬────────────┬─────────────┬─────────────┬─────────────────┬────────┬────────────┬─────────────────────┐
+│ (index) │ id │ first_name │  last_name  │    title    │ department_name │ salary │ manager_id │    manager_name     │
+├─────────┼────┼────────────┼─────────────┼─────────────┼─────────────────┼────────┼────────────┼─────────────────────┤
+│    0    │ 1  │ 'Cyprian'  │ 'Pankratiy' │  'manager'  │    'FINANCE'    │ '1000' │    null    │        null         │
+│    1    │ 2  │  'Ridwan'  │   'Cloe'    │  'analyst'  │     'AUDIT'     │ '900'  │     1      │ 'Cyprian Pankratiy' │
+│    2    │ 3  │ 'Surendra' │ 'Laurelle'  │ 'salesman'  │   'MARKETING'   │ '800'  │     1      │ 'Cyprian Pankratiy' │
+│    3    │ 4  │  'Khanh'   │  'Margit'   │ 'packaging' │  'PRODUCTION'   │ '700'  │     1      │ 'Cyprian Pankratiy' │
+└─────────┴────┴────────────┴─────────────┴─────────────┴─────────────────┴────────┴────────────┴─────────────────────┘
+
+
+
+
+
+
+/*
 INSERT INTO role ( title, salary, department_id) 
 VALUES ("new title1", 1000, 1);
 
 SELECT * FROM role;
+*/
