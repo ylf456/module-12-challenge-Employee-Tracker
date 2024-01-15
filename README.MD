@@ -17,6 +17,7 @@ To use this command line application of employee tracker. First, you need to ins
 4. `node index.js` To start the main menu
 
 For more details, please refer to the demo video.
+https://drive.google.com/file/d/1jusOYsRZOjqV4ghenDj1XziHjJ9JPQt1/view
 
 ## Credits
 
@@ -30,7 +31,7 @@ N/A
 
 Github Repo: https://github.com/ylf456/module-12-challenge-Employee-Tracker.git
 
-Demo video: 
+Demo video: https://drive.google.com/file/d/1jusOYsRZOjqV4ghenDj1XziHjJ9JPQt1/view
 
 Deploy: N/A
 
