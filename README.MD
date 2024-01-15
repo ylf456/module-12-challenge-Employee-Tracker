@@ -10,12 +10,11 @@ Node.js, npm package(Inquirer), and MySQL.
 
 ## Usage
 
-To use this command line application, first, you need to install an application programming interface (API) such as VSCode, and mysql on your device. Download the files from the repository and change the directory to the root folder. Install the required npm packages by running the following code in your terminal:
+To use this command line application of employee tracker. First, you need to install an application programming interface (API) (Example:VSCode), node.js and mysql on your device. Download the files from the repository and change the directory to the root folder. Install the required npm packages by running the following code in your terminal:
 1. `npm i` 
-2. `npm install --save inquirer@^8.2.4`
-and this will start the inquirer 
-3. `node index.js` 
-To start the inquirer.
+2. `npm install --save-d inquirer@^8.2.4`
+3. `npm install --save-d mysql2`
+4. `node index.js` To start the main menu
 
 For more details, please refer to the demo video.
 
@@ -29,7 +28,7 @@ N/A
 
 ## Link to this application
 
-Github Repo:
+Github Repo: https://github.com/ylf456/module-12-challenge-Employee-Tracker.git
 
 Demo video: 
 
@@ -37,4 +36,4 @@ Deploy: N/A
 
 ## Screenshots
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![This is the screenshot of menulist and the department table after chose the `view all department` option](./public/assets/image/screenshot1.png "Optional Title")
